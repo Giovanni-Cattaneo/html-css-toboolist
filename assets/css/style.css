@@ -60,12 +60,15 @@ button{
 
 #interactive_blue{
     background-color: #1988de;
+    padding: 0.5rem;
     border-color: #1988de;
     color: white;
+    border: none;
 }
 
 #interactive_grey{
     background-color: white;
+    padding: 0.5rem;
     color: lightgray;
     border-color: #f6f8f9;
 }
