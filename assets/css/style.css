@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-
+/* #region common */
 :root{
     --tobo-dark: ;
     --tobo-bg-color: #ffffff;
@@ -13,6 +13,7 @@
     --tobo-website-bg: #ec4a9d;
     --tobo-sales-bg: #76a05d;
 }
+/* #endregion common */
 
 body{
   background-color: #f6f8f9;  
