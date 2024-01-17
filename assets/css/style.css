@@ -20,23 +20,32 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* #region header */
 header{
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-main{
-    margin-top: 3rem;
-    width: 50%;
-    margin-left: 30%;
+img{
+    vertical-align: middle;
 }
+
 
 h1{
     display: inline-block;
     font-weight: bold;
     font-size: 3rem;
     vertical-align: middle;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
+}
+/* #endregion header */
+
+/* #region main */
+main{
+    margin-top: 3rem;
+    width: 50%;
+    margin-left: 30%;
 }
 
 button{
@@ -76,6 +85,7 @@ button{
     font-weight: 900;
 }
 
+/* #region bg color */
 .background_blue{
     background-color: #1988de;
 }
@@ -100,10 +110,11 @@ button{
 .background_pink{
     background-color: #ec4a9d ;
 }
-
+/* #endregion bg color */
 
 .background_blue, .background_pink, .background_light_blue, .background_purple, .background_orange, .background_green{
     color: white;
     border-radius: 15px;
     padding: 6px;
 }
+/* #endregion main */
